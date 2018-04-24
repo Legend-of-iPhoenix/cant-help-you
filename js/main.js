@@ -5,6 +5,8 @@ window.onload = function () {
 	} else {
 		var reasonList = [];
 		reasonData = parseInt(reasonData, 36).toString(2).padStart(reasons.length,0).split(''); // convert to binary
+		var selectedOptions = reasonData.forEach((x,y)=>x=="1"?reasons[y]:false).filter(x=>x);
+		selectedOptions.map(x=>gtag('event', "cant-help-you", {'event_category':'engagement','event_label': x}));
 		if (1 == reasonData.reduce((accumulator, currentValue) => parseInt(accumulator) + parseInt(currentValue))) { // if only one reason was selected
 			var reasonString = reasons[reasonData.indexOf("1")];
 			document.getElementById("reasonStart").innerHTML = " because "+(["I","I'm"].indexOf(reasonString.match(/\w*/)[0]) === -1 ? reasonString.charAt(0).toLowerCase() : "I") + reasonString.substring(1);
