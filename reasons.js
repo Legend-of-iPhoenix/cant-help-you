@@ -1,5 +1,6 @@
-// List of reasons. Each value must be valid HTML. It will be shown directly to the user. Add new items to the bottom, so pre-existing links are not broken.
+// List of reasons. Each value must be valid HTML. It will be shown directly to the user. Add new items to the top, so pre-existing links are not broken.
 var reasons = [
+	"I don't understand what you are asking, either because it is entirely unreadable or you need to rephrase your question."
 	"I am working on other projects right now.",
 	"Your project just does not appeal to me.",
 	"I don't know how to solve your problem, so I cannot help you.",
@@ -11,6 +12,5 @@ var reasons = [
 	"You got me at the wrong time. I have other things to do right now.",
 	"I'm not going to help you, because it will be a good learning experience for you. You will learn better if you try to do it yourself than if I were to just give you the answer.",
 	"You ask for help on every single point. I'm not going to do your project for you.",
-	"I have already helped you a lot. It is probably time for you to do it yourself.",
-	"I don't understand what you are asking, either because it is entirely unreadable or you need to rephrase your question."
+	"I have already helped you a lot. It is probably time for you to do it yourself."
 ]
