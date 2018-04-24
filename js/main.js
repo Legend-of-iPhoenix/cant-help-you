@@ -4,7 +4,7 @@ window.onload = function () {
 		location.href = "creator/"
 	} else {
 		var reasonList = [];
-		reasonData = parseInt(reasonData, 36).toString(2).padStart(8,0).split(''); // convert to binary
+		reasonData = parseInt(reasonData, 36).toString(2).padStart(reasons.length,0).split(''); // convert to binary
 		if (1 == reasonData.reduce((accumulator, currentValue) => parseInt(accumulator) + parseInt(currentValue))) { // if only one reason was selected
 			var reasonString = reasons[reasonData.indexOf("1")];
 			document.getElementById("reasonStart").innerHTML = " because "+(["I","I'm"].indexOf(reasonString.match(/\w*/)[0]) === -1 ? reasonString.charAt(0).toLowerCase() : "I") + reasonString.substring(1);
