@@ -1,6 +1,6 @@
 // List of reasons. Each value must be valid HTML. It will be shown directly to the user. Add new items to the top, so pre-existing links are not broken.
 var reasons = [
-	"I don't understand what you are asking, either because it is entirely unreadable or you need to rephrase your question."
+	"I don't understand what you are asking, either because it is entirely unreadable or you need to rephrase your question.",
 	"I am working on other projects right now.",
 	"Your project just does not appeal to me.",
 	"I don't know how to solve your problem, so I cannot help you.",
