@@ -11,7 +11,7 @@ var reasons = [
 	"The information is plainly listed in the documentation, which you have obviously not checked.",
 	"I'm really tired right now. I'm going to place my personal health above the immediate success of your project.",
 	"You got me at the wrong time. I have other things to do right now.",
-	"I'm not going to help you, because it will be a good learning experience for you. You will learn better if you try to do it yourself than if I were to just give you the answer.",
+	"It will be a good learning experience for you. You will learn better if you try to do it yourself than if I were to just give you the answer.",
 	"You ask for help on every single point. I'm not going to do your project for you.",
 	"I have already helped you a lot. It is probably time for you to do it yourself."
 ]
