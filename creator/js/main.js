@@ -8,6 +8,7 @@ function showCreator() {
 		var checkbox = document.createElement("input");
 		checkbox.setAttribute("type", "checkbox");
 		checkbox.setAttribute("name", index);
+		checkbox.id = index;
 		checkbox.className = "reasonCheckbox";
 		var label = document.createElement("label");
 		label.setAttribute("for", index);
