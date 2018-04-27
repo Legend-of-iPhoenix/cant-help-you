@@ -3,6 +3,10 @@
   margin: auto auto;
 }
 
+body {
+	padding: 2% 10%;
+}
+
 #reasons {
 	list-style: none;
 }
