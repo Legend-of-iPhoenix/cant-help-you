@@ -1,5 +1,7 @@
 // List of reasons. Each value must be valid HTML. It will be shown directly to the user. Add new items to the top, so pre-existing links are not broken.
 var reasons = [
+	"I have stopped maintaining the project you are asking me to work on.",
+	"Instead of asking me to do it, you should probably do it yourself.",
 	"You repeatedly blame your issues on the tools you use, ignorant of your own flaws and mistakes.",
 	"You need to put more effort into this project. Try to ask questions that show insight into actually understanding what you need help with, rather than ones having me do your project for you.",
 	"You have continuously pestered me to help you with this project. I have other obligations to deal with that unfortunately take precedence.",
